@@ -11,6 +11,16 @@
     --color-dark: #1F1E1E;
 }
 
+html {
+    box-sizing: border-box;
+    font-size: 66.5%; /*Transforma 1REM a 10px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: var(--main-font);
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
