@@ -64,6 +64,13 @@ img {
     text-align: center;
 }
 
+/* Gradients */
+.green-gradient {
+    color: transparent;
+    background: linear-gradient(to right, var(--color-primary) 0%, var(--color-seconday) 100% );
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 
 /* Header styles */
 .header {
