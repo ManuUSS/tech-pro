@@ -1,6 +1,14 @@
 :root {
+    /* Fonts */
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Lato', sans-serif;
+    /* Colors */
+    --color-primary: #1073BA;
+    --color-seconday: #00DA55;
+    --color-asphalt: #3B3B3B;
+    --color-asphalt-light: #E1E1E1;
+    --color-white: #FFFFFF;
+    --color-dark: #1F1E1E;
 }
 
 body {
