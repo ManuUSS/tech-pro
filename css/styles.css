@@ -78,3 +78,44 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.text-header {
+    text-align: center;
+    padding-top: var(--spacing-lg);
+}
+
+@media ( min-width: 768px ) {
+    .text-header {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 0;
+    }
+}
+
+.text-header p {
+    margin: 0;
+}
+
+.product-tagline {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.product-name {
+    font-size: 6rem;   
+    margin: 0;
+}
+
+@media ( min-width: 768px ) {
+    .product-name {
+        font-size: 10rem;
+        line-height: 1;
+    }
+}
+
+.product-price span {
+    font-size: 6rem;
+    font-weight: 900;
+}
