@@ -261,6 +261,14 @@ img {
     background-repeat: no-repeat;
     background-position: 90% center;
     background-size: 15rem;
+    transition: transform .5s ease-in-out,
+                background-size .3s ease-in
+    ;
+}
+
+.model:hover {
+    transform: scale(1.1);
+    background-size: 27rem;
 }
 
 .model h3 {
