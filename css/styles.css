@@ -164,3 +164,35 @@ img {
     text-transform: uppercase;
     margin-top: var(--spacing-md);
 }
+
+
+/* About tech pro */
+.about-tech {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--color-primary) 0% ), url(../img/imagen-mujer.jpg);
+    background-position: right;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%, 110rem;
+}
+
+.about-tech-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 40rem);
+    row-gap: var(--spacing-lg);
+}
+
+.text-about-tech {
+    grid-row: 2/3;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-about-tech p {
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.text-about-tech h2 {
+    font-size: 4rem;
+}
