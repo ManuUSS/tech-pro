@@ -367,3 +367,14 @@ img {
     font-weight: 900;
     border: none;
 }
+
+/* Footer */
+
+.footer p {
+    text-align: center;
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--color-primary);
+    padding: 3rem;
+}
